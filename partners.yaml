@@ -1,0 +1,135 @@
+# =========================================================================
+# Partner configuration for Infinitopes Partner Intelligence Dashboard
+# =========================================================================
+# To add a partner: copy the block below the last partner, fill in the fields.
+# Required: name, website.
+# Recommended: ticker, cik (leave blank for non-US-listed), hq, focus,
+#              our_contact, tier.
+#
+# Where to find the SEC CIK number:
+#   https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=<name>
+#   Leave cik blank ("") for companies that don't file with the SEC
+#   (Merck KGaA, Roche, etc). The SEC tab will show a friendly "not applicable"
+#   note for them.
+# =========================================================================
+
+default_indications:
+  - oesophageal cancer
+  - esophageal cancer
+  - gastric cancer
+  - gastroesophageal
+  - oesophageal adenocarcinoma
+  - immunotherapy
+  - cancer vaccine
+  - neoantigen
+  - immunopeptidomics
+  - viral vector
+
+partners:
+  - name: AstraZeneca
+    ticker: AZN
+    cik: "901832"
+    hq: Cambridge, UK
+    focus: Durvalumab / oncology backbone
+    our_contact: Will Deacon (BD)
+    tier: T1
+    website: https://www.astrazeneca.com
+
+  - name: Merck (MSD)
+    ticker: MRK
+    cik: "310158"
+    hq: Rahway, NJ
+    focus: Pembrolizumab / oncology
+    our_contact: TBD
+    tier: T1
+    website: https://www.merck.com
+
+  - name: Merck KGaA
+    ticker: MRK.DE
+    cik: ""
+    hq: Darmstadt, DE
+    focus: Bavencio / M Ventures
+    our_contact: TBD
+    tier: T1
+    website: https://www.merckgroup.com
+
+  - name: Bristol Myers Squibb
+    ticker: BMY
+    cik: "14272"
+    hq: Princeton, NJ
+    focus: Nivolumab / oncology
+    our_contact: TBD
+    tier: T1
+    website: https://www.bms.com
+
+  - name: Pfizer
+    ticker: PFE
+    cik: "78003"
+    hq: New York, NY
+    focus: Oncology / vaccines / CVC
+    our_contact: Shaan Gandhi (BD)
+    tier: T1
+    website: https://www.pfizer.com
+
+  - name: Sanofi
+    ticker: SNY
+    cik: "1121404"
+    hq: Paris, FR
+    focus: Oncology / Sanofi Ventures
+    our_contact: TBD
+    tier: T2
+    website: https://www.sanofi.com
+
+  - name: GSK
+    ticker: GSK
+    cik: "1131399"
+    hq: London, UK
+    focus: Vaccines / oncology
+    our_contact: TBD
+    tier: T2
+    website: https://www.gsk.com
+
+  - name: Johnson & Johnson
+    ticker: JNJ
+    cik: "200406"
+    hq: New Brunswick, NJ
+    focus: JJDC / oncology / Innovation
+    our_contact: TBD
+    tier: T2
+    website: https://www.jnj.com
+
+  - name: Roche
+    ticker: RHHBY
+    cik: ""
+    hq: Basel, CH
+    focus: Genentech / oncology
+    our_contact: TBD
+    tier: T2
+    website: https://www.roche.com
+
+  - name: Novartis
+    ticker: NVS
+    cik: "1114448"
+    hq: Basel, CH
+    focus: NVF / oncology / cell & gene
+    our_contact: TBD
+    tier: T2
+    website: https://www.novartis.com
+
+  - name: Amgen
+    ticker: AMGN
+    cik: "318154"
+    hq: Thousand Oaks, CA
+    focus: Amgen Ventures / oncology
+    our_contact: TBD
+    tier: T2
+    website: https://www.amgen.com
+
+  - name: Kyowa Kirin
+    ticker: KYKOF
+    cik: ""
+    hq: Tokyo, JP
+    focus: Cell therapy / IO
+    our_contact: TBD
+    tier: T2
+    website: https://www.kyowakirin.com
